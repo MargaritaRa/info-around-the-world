@@ -2,6 +2,7 @@ from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import MetaData
 from sqlalchemy.orm import validates
 from sqlalchemy_serializer import SerializerMixin
+from sqlalchemy.ext.associationproxy import association_proxy
 
 metadata = MetaData(naming_convention={
     "fk": "fk_%(table_name)s_%(column_0_name)s_%(referred_table_name)s",
@@ -20,6 +21,8 @@ class User(db.Model, SerializerMixin):
     countries = db.relationship('Countries', back_populates='user')
     favorites = db.relationship('Favorite', back_populates='user')
 
+    country_names = association_proxy('favorites', 'country')
+
 class Favorite(db.Model, SerializerMixin):
 
     __tablename__ = 'favorites_table'
@@ -30,7 +33,8 @@ class Favorite(db.Model, SerializerMixin):
     country_id = db.Column(db.Integer, db.ForeignKey('countries_table.id'))
 
     user = db.relationship('User', back_populates='favorites')
-    country = db.relationship('Countries', back_populates='favorite')
+    country = db.relationship('Countries', back_populates='favorite', foreign_keys=[country_id])
+
 
 class Countries(db.Model, SerializerMixin):
 
@@ -47,9 +51,11 @@ class Countries(db.Model, SerializerMixin):
     tipping = db.Column(db.String)
     when = db.Column(db.String)
     links = db.Column(db.String)
+    phrases = db.Column(db.String)
+    foods = db.Column(db.String)
 
-    user_id = db.Column(db.Integer, db.ForeignKey('users_table.id'))
+    # user_id = db.Column(db.Integer, db.ForeignKey('users_table.id'))
     favorite_id = db.Column(db.Integer, db.ForeignKey('favorites_table.id'))
 
     user = db.relationship('User', back_populates='countries')
-    favorite =  db.relationship('Favorite', back_populates='country')
+    favorite =  db.relationship('Favorite', back_populates='country', foreign_keys=[favorite_id])
