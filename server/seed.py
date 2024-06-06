@@ -15,7 +15,7 @@ if __name__ == '__main__':
 
         c = Countries(
             name = "Spain",
-            contenent = "Europe",
+            continent = "Europe",
             image = "./image/spain.png",
             currency = "Euro (€)",
             language = "Spanish",
@@ -27,6 +27,9 @@ if __name__ == '__main__':
             foods = "Paella, Tapas, Gazpacho, Churros",
             links = "https://www.tripadvisor.com/Tourism-g187427-Spain-Vacations.html"
             )
+        
+        countries.append(c)
+        
         c = Countries(
             name = "France",
             continent = "Europe",
@@ -41,6 +44,8 @@ if __name__ == '__main__':
             foods = "Croissant, Baguette, Coq au Vin, Ratatouille",
             links = "https://www.tripadvisor.com/Tourism-g187070-France-Vacations.html"
             )
+        
+        countries.append(c)
 
         c = Countries(
             name = "Italy",
@@ -56,6 +61,8 @@ if __name__ == '__main__':
             foods = "Pizza, Pasta, Gelato, Risotto",
             links = "https://www.tripadvisor.com/Tourism-g187768-Italy-Vacations.html"
             )
+        
+        countries.append(c)
 
         c = Countries(
             name = "England",
@@ -70,7 +77,9 @@ if __name__ == '__main__':
             when = "Spring (April to June) and Summer (July to September)",
             foods = "Fish and Chips, Roast Beef, English Breakfast, Afternoon Tea",
             links = "https://www.tripadvisor.com/Tourism-g186216-London_England-Vacations.html"
-        )
+            )
+        
+        countries.append(c)
 
         c = Countries(
             name = "Switzerland",
@@ -85,7 +94,9 @@ if __name__ == '__main__':
             when = "Summer (June to August) for outdoor activities, Winter (December to February) for skiing.",
             foods = "Fondue, Raclette, Rösti, Swiss Chocolate",
             links = "https://www.tripadvisor.com/Tourism-g188045-Switzerland-Vacations.html"
-        )
+            )
+        
+        countries.append(c)
 
         c = Countries(
             name = "Greece",
@@ -101,6 +112,9 @@ if __name__ == '__main__':
             foods = "Moussaka, Souvlaki, Gyro, Greek Salad",
             links = "https://www.tripadvisor.com/Tourism"
             )
+        
+        countries.append(c)
+
         c = Countries(
             name = "Iceland",
             continent = "Europe",
@@ -116,6 +130,8 @@ if __name__ == '__main__':
             links = "https://www.tripadvisor.com/Tourism-g189952-Iceland-Vacations.html"
             )
         
+        countries.append(c)
+        
         c = Countries(
             name = "Japan",
             continent = "Asia",
@@ -129,7 +145,9 @@ if __name__ == '__main__':
             when = "Spring (March to May) and Autumn (September to November)",
             foods = "Sushi, Ramen, Tempura, Wagyu Beef",
             links = "https://www.tripadvisor.com/Tourism-g294232-Japan-Vacations.html"
-        )
+            )
+        
+        countries.append(c)
 
         c = Countries(
             name = "Thailand",
@@ -144,7 +162,9 @@ if __name__ == '__main__':
             when = "November to February (cool and dry season)",
             foods = "Pad Thai, Som Tum (Papaya Salad), Tom Yum Goong (Spicy Shrimp Soup), Green Curry",
             links = "https://www.tripadvisor.com/Tourism-g293915-Thailand-Vacations.html"
-        )
+            )
+        
+        countries.append(c)
 
         c = Countries(
             name = "Vietnam",
@@ -159,7 +179,9 @@ if __name__ == '__main__':
             when = "December to February (cool and dry season)",
             foods = "Pho, Banh Mi, Spring Rolls, Bun Cha",
             links = "https://www.tripadvisor.com/Tourism-g293921-Vietnam-Vacations.html"
-        )
+            )
+        
+        countries.append(c)
 
         c = Countries(
             name = "India",
@@ -174,7 +196,9 @@ if __name__ == '__main__':
             when = "October to March (cooler and drier months)",
             foods = "Curry, Tandoori Chicken, Biryani, Masala Dosa",
             links = "https://www.tripadvisor.com/Tourism-g293860-India-Vacations.html"
-        )
+            )
+        
+        countries.append(c)
 
         c = Countries(
             name = "Nepal",
@@ -189,7 +213,9 @@ if __name__ == '__main__':
             when = "October to December (clear skies for mountain views)",
             foods = "Dal Bhat, Momo, Sel Roti, Newari Cuisine",
             links = "https://www.tripadvisor.com/Tourism-g293889-Nepal-Vacations.html"
-        )
+            )
+        
+        countries.append(c)
 
         c = Countries(
             name = "South Korea",
@@ -204,7 +230,9 @@ if __name__ == '__main__':
             when = "Spring (April to June) and Autumn (September to November)",
             foods = "Kimchi, Bibimbap, Bulgogi, Korean BBQ",
             links = "https://www.tripadvisor.com/Tourism-g294196-South_Korea-Vacations.html"
-        )
+            )
+        
+        countries.append(c)
 
         c = Countries(
             name = "China",
@@ -219,7 +247,9 @@ if __name__ == '__main__':
             when = "Spring (April to May) and Autumn (September to October)",
             foods = "Peking Duck, Dumplings, Hot Pot, Kung Pao Chicken",
             links = "https://www.tripadvisor.com/Tourism-g294211-China-Vacations.html"
-        )
+            )
+        
+        countries.append(c)
 
         c = Countries(
             name = "Saudi Arabia",
@@ -234,7 +264,9 @@ if __name__ == '__main__':
             when = "October to March (cooler temperatures)",
             foods = "Kabsa, Shawarma, Falafel, Hummus",
             links = "https://www.tripadvisor.com/Tourism-g293995-Saudi_Arabia-Vacations.html"
-        )
+            )
+        
+        countries.append(c)
 
         c = Countries(
             name = "Kenya",
@@ -249,7 +281,9 @@ if __name__ == '__main__':
             when = "January to February and June to September (dry seasons)",
             foods = "Ugali, Nyama Choma, Samosa, Pilau",
             links = "https://www.tripadvisor.com/Tourism-g294206-Kenya-Vacations.html"
-        )
+            )
+        
+        countries.append(c)
 
         c = Countries(
             name = "Egypt",
@@ -264,7 +298,9 @@ if __name__ == '__main__':
             when = "October to April (cooler temperatures)",
             foods = "Koshari, Ful Medames, Shawarma, Baklava",
             links = "https://www.tripadvisor.com/Tourism-g294200-Egypt-Vacations.html"
-        )
+            )
+        
+        countries.append(c)
 
         c = Countries(
             name = "Morocco",
@@ -279,7 +315,9 @@ if __name__ == '__main__':
             when = "March to May and September to November (pleasant weather)",
             foods = "Tagine, Couscous, Harira, Pastilla",
             links = "https://www.tripadvisor.com/Tourism-g293730-Morocco-Vacations.html"
-        )
+            )
+        
+        countries.append(c)
 
         c = Countries(
             name = "Venezuela",
@@ -294,7 +332,9 @@ if __name__ == '__main__':
             when = "December to April (dry season)",
             foods = "Arepas, Pabellón Criollo, Cachapas, Hallacas",
             links = "https://www.tripadvisor.com/Tourism-g294324-Venezuela-Vacations.html"
-        )
+            )
+        
+        countries.append(c)
 
         c = Countries(
             name = "Argentina",
@@ -309,7 +349,9 @@ if __name__ == '__main__':
             when = "March to May and September to November (pleasant weather)",
             foods = "Asado, Empanadas, Dulce de Leche, Milanesa",
             links = "https://www.tripadvisor.com/Tourism-g294266-Argentina-Vacations.html"
-        )
+            )
+        
+        countries.append(c)
 
         c = Countries(
             name = "Brazil",
@@ -324,7 +366,9 @@ if __name__ == '__main__':
             when = "December to March (summer)",
             foods = "Feijoada, Pão de Queijo, Brigadeiro, Churrasco",
             links = "https://www.tripadvisor.com/Tourism-g294280-Brazil-Vacations.html"
-        )
+            )
+        
+        countries.append(c)
 
         c = Countries(
             name = "Colombia",
@@ -339,7 +383,9 @@ if __name__ == '__main__':
             when = "December to March (dry season)",
             foods = "Arepas, Bandeja Paisa, Sancocho, Ajiaco",
             links = "https://www.tripadvisor.com/Tourism-g294073-Colombia-Vacations.html"
-        )
+            )
+        
+        countries.append(c)
 
         c = Countries(
             name = "Ecuador",
@@ -354,7 +400,9 @@ if __name__ == '__main__':
             when = "June to September (dry season)",
             foods = "Ceviche, Encebollado, Llapingachos, Hornado",
             links = "https://www.tripadvisor.com/Tourism-g294308-Ecuador-Vacations.html"
-        )
+            )
+        
+        countries.append(c)
 
         c = Countries(
             name = "USA",
@@ -369,7 +417,9 @@ if __name__ == '__main__':
             when = "Varies by region",
             foods = "Hamburgers, Hot Dogs, Apple Pie, Barbecue",
             links = "https://www.tripadvisor.com/Tourism-g191-United_States-Vacations.html"
-        )
+            )
+        
+        countries.append(c)
 
         c = Countries(
             name = "Canada",
@@ -384,7 +434,9 @@ if __name__ == '__main__':
             when = "June to August (summer) and December to February (winter sports)",
             foods = "Poutine, Maple Syrup, Nanaimo Bars, Butter Tarts",
             links = "https://www.tripadvisor.com/Tourism-g153339-Canada-Vacations.html"
-        )
+            )
+        
+        countries.append(c)
 
         c = Countries(
             name = "Mexico",
@@ -399,7 +451,9 @@ if __name__ == '__main__':
             when = "November to April (dry season)",
             foods = "Tacos, Enchiladas, Mole, Guacamole",
             links = "https://www.tripadvisor.com/Tourism-g150768-Mexico-Vacations.html"
-        )
+            )
+        
+        countries.append(c)
 
         c = Countries(
             name = "Dominican Republic",
@@ -414,7 +468,9 @@ if __name__ == '__main__':
             when = "December to April (dry season)",
             foods = "Mangú, La Bandera, Sancocho, Tostones",
             links = "https://www.tripadvisor.com/Tourism-g147288-Dominican_Republic-Vacations.html"
-        )
+            )
+        
+        countries.append(c)
 
         c = Countries(
             name = "Puerto Rico",
@@ -429,7 +485,9 @@ if __name__ == '__main__':
             when = "December to April (dry season)",
             foods = "Mofongo, Arroz con Gandules, Lechón, Alcapurrias",
             links = "https://www.tripadvisor.com/Tourism-g147319-Puerto_Rico-Vacations.html"
-        )
+            )
+        
+        countries.append(c)
 
         c = Countries(
             name = "Aruba",
@@ -444,7 +502,9 @@ if __name__ == '__main__':
             when = "April to August (off-peak season with good weather)",
             foods = "Keshi Yena, Pastechi, Funchi, Aruban Seafood",
             links = "https://www.tripadvisor.com/Tourism-g147247-Aruba-Vacations.html"
-        )
+            )
+        
+        countries.append(c)
 
         c = Countries(
             name = "Jamaica",
@@ -459,7 +519,9 @@ if __name__ == '__main__':
             when = "November to mid-December and January to March (dry season)",
             foods = "Jerk Chicken, Ackee and Saltfish, Callaloo, Patties",
             links = "https://www.tripadvisor.com/Tourism-g147309-Jamaica-Vacations.html"
-        )
+            )
+        
+        countries.append(c)
 
         c = Countries(
             name = "Bahamas",
@@ -474,7 +536,9 @@ if __name__ == '__main__':
             when = "December to April (dry season)",
             foods = "Conch Fritters, Rock Lobsters, Bahamian Stew Fish, Johnnycakes",
             links = "https://www.tripadvisor.com/Tourism-g147414-Bahamas-Vacations.html"
-        )
+            )
+        
+        countries.append(c)
 
         c = Countries(
             name = "Australia",
@@ -489,7 +553,9 @@ if __name__ == '__main__':
             when = "September to November (spring) and March to May (autumn)",
             foods = "Vegemite, Meat Pies, Pavlova, Lamingtons",
             links = "https://www.tripadvisor.com/Tourism-g255055-Australia-Vacations.html"
-        )
+            )
+        
+        countries.append(c)
 
         c = Countries(
             name = "New Zealand",
@@ -504,7 +570,9 @@ if __name__ == '__main__':
             when = "December to February (summer)",
             foods = "Hangi, Pavlova, Kiwi Burger, Fish and Chips",
             links = "https://www.tripadvisor.com/Tourism-g255104-New_Zealand-Vacations.html"
-        )
+            )
+        
+        countries.append(c)
 
         c = Countries(
             name = "Samoa",
@@ -519,7 +587,9 @@ if __name__ == '__main__':
             when = "May to October (dry season)",
             foods = "Palusami, Oka, Faiai Eleni, Pisua",
             links = "https://www.tripadvisor.com/Tourism-g294137-Samoa-Vacations.html"
-        )
+            )
+        
+        countries.append(c)
 
         c = Countries(
             name = "Israel",
@@ -534,7 +604,9 @@ if __name__ == '__main__':
             when = "March to May and September to November (mild weather)",
             foods = "Falafel, Hummus, Shakshuka, Sabich",
             links = "https://www.tripadvisor.com/Tourism-g293977-Israel-Vacations.html"
-        )
+            )
+        
+        countries.append(c)
 
         c = Countries(
             name = "Oman",
@@ -549,7 +621,9 @@ if __name__ == '__main__':
             when = "October to April (cooler temperatures)",
             foods = "Shuwa, Majboos, Mashuai, Halwa",
             links = "https://www.tripadvisor.com/Tourism-g294006-Oman-Vacations.html"
-        )
+            )
+        
+        countries.append(c)
 
         c = Countries(
             name = "South Africa",
@@ -564,7 +638,9 @@ if __name__ == '__main__':
             when = "Spring (September to November) and Autumn (March to May)",
             foods = "Braai (BBQ), Bobotie, Biltong, Bunny Chow",
             links = "https://www.tripadvisor.com/Tourism-g293740-South_Africa-Vacations.html"
-        )
+            )
+        
+        countries.append(c)
 
         c = Countries(
             name = "Zimbabwe",
@@ -579,7 +655,9 @@ if __name__ == '__main__':
             when = "May to October (dry season)",
             foods = "Sadza, Biltong, Mapopo Candy, Nyama",
             links = "https://www.tripadvisor.com/Tourism-g293759-Zimbabwe-Vacations.html"
-        )
+            )
+        
+        countries.append(c)
 
         c = Countries(
             name = "Tanzania",
@@ -594,7 +672,9 @@ if __name__ == '__main__':
             when = "June to October (dry season)",
             foods = "Ugali, Nyama Choma, Samosa, Pilau",
             links = "https://www.tripadvisor.com/Tourism-g293747-Tanzania-Vacations.html"
-        )
+            )
+        
+        countries.append(c)
 
         c = Countries(
             name = "Madagascar",
@@ -609,7 +689,9 @@ if __name__ == '__main__':
             when = "April to October (dry season)",
             foods = "Ravitoto, Romazava, Koba, Mofo Anana",
             links = "https://www.tripadvisor.com/Tourism-g293808-Madagascar-Vacations.html"
-        )
+            )
+        
+        countries.append(c)
 
         c = Countries(
             name = "Chile",
@@ -624,7 +706,9 @@ if __name__ == '__main__':
             when = "September to November (spring) and March to May (autumn)",
             foods = "Empanadas, Pastel de Choclo, Asado, Curanto",
             links = "https://www.tripadvisor.com/Tourism-g294291-Chile-Vacations.html"
-        )
+            )
+        
+        countries.append(c)
 
         c = Countries(
             name = "Philippines",
@@ -639,7 +723,9 @@ if __name__ == '__main__':
             when = "November to April (dry season)",
             foods = "Adobo, Sinigang, Lechon, Halo-Halo",
             links = "https://www.tripadvisor.com/Tourism-g294245-Philippines-Vacations.html"
-        )
+            )
+        
+        countries.append(c)
 
         c = Countries(
             name = "Maldives",
@@ -654,7 +740,9 @@ if __name__ == '__main__':
             when = "November to April (dry season)",
             foods = "Garudhiya, Mas Huni, Fihunu Mas, Bajiya",
             links = "https://www.tripadvisor.com/Tourism-g293953-Maldives-Vacations.html"
-        )
+            )
+        
+        countries.append(c)
 
         c = Countries(
             name = "Jordan",
@@ -669,7 +757,9 @@ if __name__ == '__main__':
             when = "March to May (spring) and September to November (autumn)",
             foods = "Mansaf, Falafel, Hummus, Kunafa",
             links = "https://www.tripadvisor.com/Tourism-g293985-Jordan-Vacations.html"
-        )
+            )
+        
+        countries.append(c)
 
         c = Countries(
             name = "Turkey",
@@ -684,7 +774,7 @@ if __name__ == '__main__':
             when = "April to May and September to October (mild weather)",
             foods = "Kebabs, Baklava, Meze, Dolma",
             links = "https://www.tripadvisor.com/Tourism-g293969-Turkey-Vacations.html"
-        )
+            )
 
 
 

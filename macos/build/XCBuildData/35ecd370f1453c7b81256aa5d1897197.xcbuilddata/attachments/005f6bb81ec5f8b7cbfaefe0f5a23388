@@ -1,0 +1,20 @@
+{
+  "" : {
+    "const-values" : "/Users/margaritaramirez/Development/code/Flutter/flutter/info_around_the_world/macos/build/Pods.build/Release/FirebaseSharedSwift.build/Objects-normal/x86_64/FirebaseSharedSwift-master.swiftconstvalues",
+    "dependencies" : "/Users/margaritaramirez/Development/code/Flutter/flutter/info_around_the_world/macos/build/Pods.build/Release/FirebaseSharedSwift.build/Objects-normal/x86_64/FirebaseSharedSwift-master.d",
+    "diagnostics" : "/Users/margaritaramirez/Development/code/Flutter/flutter/info_around_the_world/macos/build/Pods.build/Release/FirebaseSharedSwift.build/Objects-normal/x86_64/FirebaseSharedSwift-master.dia",
+    "emit-module-dependencies" : "/Users/margaritaramirez/Development/code/Flutter/flutter/info_around_the_world/macos/build/Pods.build/Release/FirebaseSharedSwift.build/Objects-normal/x86_64/FirebaseSharedSwift-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/margaritaramirez/Development/code/Flutter/flutter/info_around_the_world/macos/build/Pods.build/Release/FirebaseSharedSwift.build/Objects-normal/x86_64/FirebaseSharedSwift-master-emit-module.dia",
+    "swift-dependencies" : "/Users/margaritaramirez/Development/code/Flutter/flutter/info_around_the_world/macos/build/Pods.build/Release/FirebaseSharedSwift.build/Objects-normal/x86_64/FirebaseSharedSwift-master.swiftdeps"
+  },
+  "/Users/margaritaramirez/Development/code/Flutter/flutter/info_around_the_world/macos/Pods/FirebaseSharedSwift/FirebaseSharedSwift/Sources/FirebaseRemoteConfigValueDecoding.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release/FirebaseSharedSwift.build/Objects-normal/x86_64/FirebaseRemoteConfigValueDecoding.o",
+    "llvm-bc" : "/Users/margaritaramirez/Development/code/Flutter/flutter/info_around_the_world/macos/build/Pods.build/Release/FirebaseSharedSwift.build/Objects-normal/x86_64/FirebaseRemoteConfigValueDecoding.bc",
+    "object" : "/Users/margaritaramirez/Development/code/Flutter/flutter/info_around_the_world/macos/build/Pods.build/Release/FirebaseSharedSwift.build/Objects-normal/x86_64/FirebaseRemoteConfigValueDecoding.o"
+  },
+  "/Users/margaritaramirez/Development/code/Flutter/flutter/info_around_the_world/macos/Pods/FirebaseSharedSwift/FirebaseSharedSwift/Sources/third_party/FirebaseDataEncoder/FirebaseDataEncoder.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release/FirebaseSharedSwift.build/Objects-normal/x86_64/FirebaseDataEncoder.o",
+    "llvm-bc" : "/Users/margaritaramirez/Development/code/Flutter/flutter/info_around_the_world/macos/build/Pods.build/Release/FirebaseSharedSwift.build/Objects-normal/x86_64/FirebaseDataEncoder.bc",
+    "object" : "/Users/margaritaramirez/Development/code/Flutter/flutter/info_around_the_world/macos/build/Pods.build/Release/FirebaseSharedSwift.build/Objects-normal/x86_64/FirebaseDataEncoder.o"
+  }
+}

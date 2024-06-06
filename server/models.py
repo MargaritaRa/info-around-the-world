@@ -16,24 +16,28 @@ class User(db.Model, SerializerMixin):
 
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String, unique=True, nullable=False)
-    _hashed_password = db.Column(db.String)
+    _hashed_password = db.Column(db.String, nullable=False)
 
-    countries = db.relationship('Countries', back_populates='user')
     favorites = db.relationship('Favorite', back_populates='user')
 
-    country_names = association_proxy('favorites', 'country')
+    country_names = association_proxy('favorites', 'countries')
 
-class Favorite(db.Model, SerializerMixin):
+    serialize_rules = ('-countries.user',)
 
-    __tablename__ = 'favorites_table'
-
-    id = db.Column(db.Integer, primary_key=True)
-
-    user_id = db.Column(db.Integer, db.ForeignKey('users_table.id'))
-    country_id = db.Column(db.Integer, db.ForeignKey('countries_table.id'))
-
-    user = db.relationship('User', back_populates='favorites')
-    country = db.relationship('Countries', back_populates='favorite', foreign_keys=[country_id])
+    @validates('username')
+    def validate_username(self, key, value):
+        user = User.query.where(User.username == value).first()
+        if value and len(value.strip().replace(' ', '_')) < 4:
+            raise ValueError('Username must be greater than or equal to 4 characters')
+        if user:
+            raise ValueError('Username must be unique!')
+        return value.strip().replace(' ', '_')
+    
+    @validates('_hashed_password')
+    def validate_password(self, key, value):
+        if len(value) < 6:
+            raise ValueError('Password must be at least 6 characters long!')
+        return value
 
 
 class Countries(db.Model, SerializerMixin):
@@ -42,7 +46,7 @@ class Countries(db.Model, SerializerMixin):
 
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String)
-    contenent = db.Column(db.String)
+    continent = db.Column(db.String)
     image = db.Column(db.String)
     currency = db.Column(db.String)
     language = db.Column(db.String)
@@ -54,8 +58,20 @@ class Countries(db.Model, SerializerMixin):
     phrases = db.Column(db.String)
     foods = db.Column(db.String)
 
-    # user_id = db.Column(db.Integer, db.ForeignKey('users_table.id'))
-    favorite_id = db.Column(db.Integer, db.ForeignKey('favorites_table.id'))
+    favorites = db.relationship('Favorite', back_populates='countries')
 
-    user = db.relationship('User', back_populates='countries')
-    favorite =  db.relationship('Favorite', back_populates='country', foreign_keys=[favorite_id])
+    serialize_rules = ('-user.countries',)
+
+class Favorite(db.Model, SerializerMixin):
+
+    __tablename__ = 'favorites_table'
+
+    id = db.Column(db.Integer, primary_key=True)
+
+    user_id = db.Column(db.Integer, db.ForeignKey('users_table.id'))
+    country_id = db.Column(db.Integer, db.ForeignKey('countries_table.id'))
+
+    countries = db.relationship('Countries', back_populates='favorites')
+    user = db.relationship('User', back_populates='favorites')
+
+    serialize_rules = ('-favorites.user', '-favorites.countries',)
