@@ -16,7 +16,7 @@ if __name__ == '__main__':
         c = Countries(
             name = "Spain",
             contenent = "Europe",
-            image = "",
+            image = "./image/spain.png",
             currency = "Euro (€)",
             language = "Spanish",
             mannerism = "Dress conservatively in churches, avoid loud behavior in public, greet with a handshake or kiss on both cheeks.",
@@ -30,7 +30,7 @@ if __name__ == '__main__':
         c = Countries(
             name = "France",
             continent = "Europe",
-            image = "",
+            image = "./image/france.png",
             currency = "Euro (€)",
             language = "French",
             mannerism = "Dress stylishly, greet with a handshake, maintain personal space.",
@@ -45,7 +45,7 @@ if __name__ == '__main__':
         c = Countries(
             name = "Italy",
             continent = "Europe",
-            image = "",
+            image = "./image/italy.png",
             currency = "Euro (€)",
             language = "Italian",
             mannerism = "Dress elegantly, greet with a kiss on both cheeks, avoid discussing politics.",
@@ -60,7 +60,7 @@ if __name__ == '__main__':
         c = Countries(
             name = "England",
             continent = "Europe",
-            image = "",
+            image = "./image/england.png",
             currency = "British Pound (£)",
             language = "English",
             mannerism = "Dress conservatively, respect personal space, queue politely.",
@@ -75,7 +75,7 @@ if __name__ == '__main__':
         c = Countries(
             name = "Switzerland",
             continent = "Europe",
-            image = "",
+            image = "./image/switerland.png",
             currency = "Swiss Franc (CHF)",
             language = "German, French, Italian, Romansh",
             mannerism = "Dress neatly, greet with a handshake, respect punctuality.",
@@ -90,7 +90,7 @@ if __name__ == '__main__':
         c = Countries(
             name = "Greece",
             continent = "Europe",
-            image = "",
+            image = "./image/greece.png",
             currency = "Euro (€)",
             language = "Greek",
             mannerism = "Dress casually, greet with a handshake, avoid discussing sensitive topics.",
@@ -104,7 +104,7 @@ if __name__ == '__main__':
         c = Countries(
             name = "Iceland",
             continent = "Europe",
-            image = "",
+            image = "./image/iceland.png",
             currency = "Icelandic Króna (ISK)",
             language = "Icelandic",
             mannerism = "Dress warmly, greet with a handshake, respect nature.",
@@ -119,7 +119,7 @@ if __name__ == '__main__':
         c = Countries(
             name = "Japan",
             continent = "Asia",
-            image = "",
+            image = "./image/japan.png",
             currency = "Japanese Yen (¥)",
             language = "Japanese",
             mannerism = "Bow when greeting, remove shoes indoors, avoid loud conversations in public.",
@@ -134,7 +134,7 @@ if __name__ == '__main__':
         c = Countries(
             name = "Thailand",
             continent = "Asia",
-            image = "",
+            image = "./image/thailand.png",
             currency = "Thai Baht (฿)",
             language = "Thai",
             mannerism = "Wai (a slight bow with hands pressed together) when greeting, avoid physical contact in public.",
@@ -149,7 +149,7 @@ if __name__ == '__main__':
         c = Countries(
             name = "Vietnam",
             continent = "Asia",
-            image = "",
+            image = "./image/vietnam.png",
             currency = "Vietnamese Dong (₫)",
             language = "Vietnamese",
             mannerism = "Bow slightly when greeting, use both hands when giving or receiving objects, avoid public displays of affection.",
@@ -164,7 +164,7 @@ if __name__ == '__main__':
         c = Countries(
             name = "India",
             continent = "Asia",
-            image = "",
+            image = "./image/india.png",
             currency = "Indian Rupee (₹)",
             language = "Hindi, English",
             mannerism = "Namaste (a slight bow with palms pressed together) when greeting, remove shoes when entering homes or temples, avoid public displays of affection.",
@@ -179,7 +179,7 @@ if __name__ == '__main__':
         c = Countries(
             name = "Nepal",
             continent = "Asia",
-            image = "",
+            image = "./image/nepal.png",
             currency = "Nepalese Rupee (₨)",
             language = "Nepali",
             mannerism = "Namaste (a slight bow with palms pressed together) when greeting, remove shoes when entering homes or temples, avoid public displays of affection.",
@@ -194,7 +194,7 @@ if __name__ == '__main__':
         c = Countries(
             name = "South Korea",
             continent = "Asia",
-            image = "",
+            image = "./image/southKorea.png",
             currency = "South Korean Won (₩)",
             language = "Korean",
             mannerism = "Bow slightly when greeting, remove shoes indoors, avoid public displays of affection.",
@@ -209,7 +209,7 @@ if __name__ == '__main__':
         c = Countries(
             name = "China",
             continent = "Asia",
-            image = "",
+            image = "./image/china.png",
             currency = "Chinese Yuan (¥)",
             language = "Mandarin",
             mannerism = "Greet with a nod or handshake, avoid sensitive political topics, accept gifts with both hands.",
@@ -224,7 +224,7 @@ if __name__ == '__main__':
         c = Countries(
             name = "Saudi Arabia",
             continent = "North Africa and Middle East",
-            image = "",
+            image = "./image/saudi_arabia.png",
             currency = "Saudi Riyal (SR)",
             language = "Arabic",
             mannerism = "Greet with a handshake, avoid public displays of affection, dress modestly.",
@@ -237,24 +237,9 @@ if __name__ == '__main__':
         )
 
         c = Countries(
-            name = "South Africa",
-            continent = "Africa",
-            image = "",
-            currency = "South African Rand (ZAR)",
-            language = "Afrikaans, English",
-            mannerism = "Shake hands when greeting, avoid sensitive political topics, respect cultural diversity.",
-            visa = "http://www.dha.gov.za/index.php/countries-exempt-from-sa-visas",
-            phrases = "Hello: Hallo, Goodbye: Totsiens, Thank you: Dankie, Sorry: Jammer, No: Nee",
-            tipping = "10-15% in restaurants, rounding up taxi fares.",
-            when = "Spring (September to November) and Autumn (March to May)",
-            foods = "Braai (BBQ), Bobotie, Biltong, Bunny Chow",
-            links = "https://www.tripadvisor.com/Tourism-g293740-South_Africa-Vacations.html"
-        )
-
-        c = Countries(
             name = "Kenya",
             continent = "Africa",
-            image = "",
+            image = "./image/kenya.png",
             currency = "Kenyan Shilling (KES)",
             language = "Swahili, English",
             mannerism = "Greet with a handshake, dress modestly, avoid public displays of affection.",
@@ -269,7 +254,7 @@ if __name__ == '__main__':
         c = Countries(
             name = "Egypt",
             continent = "North Africa and Middle East",
-            image = "",
+            image = "./image/egypt.png",
             currency = "Egyptian Pound (EGP)",
             language = "Arabic",
             mannerism = "Greet with a handshake, dress modestly, respect cultural customs.",
@@ -284,7 +269,7 @@ if __name__ == '__main__':
         c = Countries(
             name = "Morocco",
             continent = "North Africa and Middle East",
-            image = "",
+            image = "./image/morocco.png",
             currency = "Moroccan Dirham (MAD)",
             language = "Arabic, Berber",
             mannerism = "Greet with a handshake, dress modestly, respect cultural customs.",
@@ -299,7 +284,7 @@ if __name__ == '__main__':
         c = Countries(
             name = "Venezuela",
             continent = "South America",
-            image = "",
+            image = "./image/venezuela.png",
             currency = "Venezuelan Bolívar (VES)",
             language = "Spanish",
             mannerism = "Greet with a handshake or hug, dress casually, respect personal space.",
@@ -314,7 +299,7 @@ if __name__ == '__main__':
         c = Countries(
             name = "Argentina",
             continent = "South America",
-            image = "",
+            image = "./image/argentina.png",
             currency = "Argentine Peso (ARS)",
             language = "Spanish",
             mannerism = "Greet with a kiss on the cheek, dress casually, avoid sensitive political topics.",
@@ -329,7 +314,7 @@ if __name__ == '__main__':
         c = Countries(
             name = "Brazil",
             continent = "South America",
-            image = "",
+            image = "./image/brazil.png",
             currency = "Brazilian Real (BRL)",
             language = "Portuguese",
             mannerism = "Greet with a kiss on both cheeks, dress casually, avoid sensitive political topics.",
@@ -344,7 +329,7 @@ if __name__ == '__main__':
         c = Countries(
             name = "Colombia",
             continent = "South America",
-            image = "",
+            image = "./image/colombia.png",
             currency = "Colombian Peso (COP)",
             language = "Spanish",
             mannerism = "Greet with a handshake or kiss on the cheek, dress casually, avoid sensitive political topics.",
@@ -359,7 +344,7 @@ if __name__ == '__main__':
         c = Countries(
             name = "Ecuador",
             continent = "South America",
-            image = "",
+            image = "./image/ecuador.png",
             currency = "United States Dollar (USD)",
             language = "Spanish",
             mannerism = "Greet with a handshake or kiss on the cheek, dress casually, respect personal space.",
@@ -374,7 +359,7 @@ if __name__ == '__main__':
         c = Countries(
             name = "USA",
             continent = "North America",
-            image = "",
+            image = "./image/usa.png",
             currency = "United States Dollar (USD)",
             language = "English",
             mannerism = "Greet with a handshake, maintain personal space, dress casually.",
@@ -389,7 +374,7 @@ if __name__ == '__main__':
         c = Countries(
             name = "Canada",
             continent = "North America",
-            image = "",
+            image = "./image/canada.png",
             currency = "Canadian Dollar (CAD)",
             language = "English, French",
             mannerism = "Greet with a handshake, maintain personal space, dress casually.",
@@ -404,7 +389,7 @@ if __name__ == '__main__':
         c = Countries(
             name = "Mexico",
             continent = "North America",
-            image = "",
+            image = "./image/mexico.png",
             currency = "Mexican Peso (MXN)",
             language = "Spanish",
             mannerism = "Greet with a handshake or hug, dress casually, avoid sensitive political topics.",
@@ -419,7 +404,7 @@ if __name__ == '__main__':
         c = Countries(
             name = "Dominican Republic",
             continent = "Central America and Carribean",
-            image = "",
+            image = "./image/dr.png",
             currency = "Dominican Peso (DOP)",
             language = "Spanish",
             mannerism = "Greet with a handshake or kiss on the cheek, dress casually, avoid sensitive political topics.",
@@ -434,7 +419,7 @@ if __name__ == '__main__':
         c = Countries(
             name = "Puerto Rico",
             continent = "Central America and Carribean",
-            image = "",
+            image = "./image/pr.png",
             currency = "United States Dollar (USD)",
             language = "Spanish, English",
             mannerism = "Greet with a handshake or kiss on the cheek, dress casually, avoid sensitive political topics.",
@@ -449,7 +434,7 @@ if __name__ == '__main__':
         c = Countries(
             name = "Aruba",
             continent = "Central America and Carribean",
-            image = "",
+            image = "./image/aruba.png",
             currency = "Aruban Florin (AWG)",
             language = "Dutch, Papiamento",
             mannerism = "Greet with a handshake, dress casually, respect local customs.",
@@ -464,7 +449,7 @@ if __name__ == '__main__':
         c = Countries(
             name = "Jamaica",
             continent = "Central America and Carribean",
-            image = "",
+            image = "./image/jamaica.png",
             currency = "Jamaican Dollar (JMD)",
             language = "English",
             mannerism = "Greet with a handshake, dress casually, avoid sensitive political topics.",
@@ -479,7 +464,7 @@ if __name__ == '__main__':
         c = Countries(
             name = "Bahamas",
             continent = "Central America and Carribean",
-            image = "",
+            image = "./image/bahamas.png",
             currency = "Bahamian Dollar (BSD)",
             language = "English",
             mannerism = "Greet with a handshake, dress casually, respect local customs.",
@@ -494,7 +479,7 @@ if __name__ == '__main__':
         c = Countries(
             name = "Australia",
             continent = "Oceania",
-            image = "",
+            image = "./image/australia.png",
             currency = "Australian Dollar (AUD)",
             language = "English",
             mannerism = "Greet with a handshake, dress casually, avoid sensitive political topics.",
@@ -509,7 +494,7 @@ if __name__ == '__main__':
         c = Countries(
             name = "New Zealand",
             continent = "Oceania",
-            image = "",
+            image = "./image/newZealand.png",
             currency = "New Zealand Dollar (NZD)",
             language = "English, Maori",
             mannerism = "Greet with a handshake, respect the Maori culture and traditions, dress casually.",
@@ -524,7 +509,7 @@ if __name__ == '__main__':
         c = Countries(
             name = "Samoa",
             continent = "Oceania",
-            image = "",
+            image = "./image/samoa.png",
             currency = "Samoan Tala (WST)",
             language = "Samoan, English",
             mannerism = "Greet with a handshake, dress modestly, respect local customs.",
@@ -539,7 +524,7 @@ if __name__ == '__main__':
         c = Countries(
             name = "Israel",
             continent = "North Africa and Middle East",
-            image = "",
+            image = "./image/israel.png",
             currency = "Israeli New Shekel (ILS)",
             language = "Hebrew, Arabic",
             mannerism = "Greet with a handshake, dress modestly, respect religious customs.",
@@ -554,7 +539,7 @@ if __name__ == '__main__':
         c = Countries(
             name = "Oman",
             continent = "North Africa and Middle East",
-            image = "",
+            image = "./image/oman.png",
             currency = "Omani Rial (OMR)",
             language = "Arabic",
             mannerism = "Greet with a handshake, dress modestly, respect local customs.",
@@ -567,24 +552,9 @@ if __name__ == '__main__':
         )
 
         c = Countries(
-            name = "Bali",
-            continent = "Asia",
-            image = "",
-            currency = "Indonesian Rupiah (IDR)",
-            language = "Indonesian",
-            mannerism = "Greet with a handshake, dress modestly, respect local customs.",
-            visa = "https://www.indonesia.travel/gb/en/travel-information/visa-immigration",
-            phrases = "Hello: Halo, Goodbye: Selamat tinggal, Thank you: Terima kasih, Sorry: Maaf, No: Tidak",
-            tipping = "10% in restaurants.",
-            when = "April to October (dry season)",
-            foods = "Nasi Goreng, Satay, Babi Guling, Mie Goreng",
-            links = "https://www.tripadvisor.com/Tourism-g294226-Bali-Vacations.html"
-        )
-
-        c = Countries(
             name = "South Africa",
             continent = "Africa",
-            image = "",
+            image = "./image/southAfrica.png",
             currency = "South African Rand (ZAR)",
             language = "Afrikaans, English",
             mannerism = "Greet with a handshake, avoid sensitive political topics, respect cultural diversity.",
@@ -599,7 +569,7 @@ if __name__ == '__main__':
         c = Countries(
             name = "Zimbabwe",
             continent = "Africa",
-            image = "",
+            image = "./image/zimbabwe.png",
             currency = "Zimbabwean Dollar (ZWL)",
             language = "English, Shona, Ndebele",
             mannerism = "Greet with a handshake, dress modestly, respect local customs.",
@@ -614,7 +584,7 @@ if __name__ == '__main__':
         c = Countries(
             name = "Tanzania",
             continent = "Africa",
-            image = "",
+            image = "./image/tanzania.png",
             currency = "Tanzanian Shilling (TZS)",
             language = "Swahili, English",
             mannerism = "Greet with a handshake, dress modestly, respect local customs.",
@@ -629,7 +599,7 @@ if __name__ == '__main__':
         c = Countries(
             name = "Madagascar",
             continent = "Africa",
-            image = "",
+            image = "./image/madagascar.png",
             currency = "Malagasy Ariary (MGA)",
             language = "Malagasy, French",
             mannerism = "Greet with a handshake, dress modestly, respect local customs.",
@@ -642,24 +612,9 @@ if __name__ == '__main__':
         )
 
         c = Countries(
-            name = "Galapagos Islands",
-            continent = "South America",
-            image = "",
-            currency = "United States Dollar (USD)",
-            language = "Spanish",
-            mannerism = "Greet with a handshake, dress casually, respect local customs.",
-            visa = "https://www.gob.ec/mremh/tramites/visas",
-            phrases = "Hello: Hola, Goodbye: Adiós, Thank you: Gracias, Sorry: Lo siento, No: No",
-            tipping = "10% in restaurants.",
-            when = "December to May (warm season)",
-            foods = "Ceviche, Encebollado, Seco de Chivo, Bolon de Verde",
-            links = "https://www.tripadvisor.com/Tourism-g294310-Galapagos_Islands-Vacations.html"
-        )
-
-        c = Countries(
             name = "Chile",
             continent = "South America",
-            image = "",
+            image = "./image/chile.png",
             currency = "Chilean Peso (CLP)",
             language = "Spanish",
             mannerism = "Greet with a handshake or kiss on the cheek, dress casually, avoid sensitive political topics.",
@@ -672,24 +627,9 @@ if __name__ == '__main__':
         )
 
         c = Countries(
-            name = "Colombia",
-            continent = "South America",
-            image = "",
-            currency = "Colombian Peso (COP)",
-            language = "Spanish",
-            mannerism = "Greet with a handshake or kiss on the cheek, dress casually, respect personal space.",
-            visa = "https://www.cancilleria.gov.co/en/procedures_services/visas",
-            phrases = "Hello: Hola, Goodbye: Adiós, Thank you: Gracias, Sorry: Lo siento, No: No",
-            tipping = "10% in restaurants.",
-            when = "December to March (dry season)",
-            foods = "Arepas, Bandeja Paisa, Ajiaco, Empanadas",
-            links = "https://www.tripadvisor.com/Tourism-g294073-Colombia-Vacations.html"
-        )
-
-        c = Countries(
             name = "Philippines",
             continent = "Asia",
-            image = "",
+            image = "./image/philippines.png",
             currency = "Philippine Peso (PHP)",
             language = "Filipino, English",
             mannerism = "Greet with a handshake, dress modestly, respect local customs.",
@@ -704,7 +644,7 @@ if __name__ == '__main__':
         c = Countries(
             name = "Maldives",
             continent = "Asia",
-            image = "",
+            image = "./image/maldives.png",
             currency = "Maldivian Rufiyaa (MVR)",
             language = "Dhivehi",
             mannerism = "Greet with a handshake, dress modestly, respect local customs and religious practices.",
@@ -719,7 +659,7 @@ if __name__ == '__main__':
         c = Countries(
             name = "Jordan",
             continent = "North Africa and Middle East",
-            image = "",
+            image = "./image/jordan.png",
             currency = "Jordanian Dinar (JOD)",
             language = "Arabic",
             mannerism = "Greet with a handshake, dress modestly, respect local customs and religious practices.",
@@ -734,7 +674,7 @@ if __name__ == '__main__':
         c = Countries(
             name = "Turkey",
             continent = "North Africa and Middle East",
-            image = "",
+            image = "./image/turkey.png",
             currency = "Turkish Lira (TRY)",
             language = "Turkish",
             mannerism = "Greet with a handshake, dress modestly, respect local customs.",
