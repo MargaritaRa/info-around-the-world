@@ -71,6 +71,11 @@ def logout():
 def all_destinations():
     return [cont.to_dict() for cont in Countries.query.all()], 200
 
+@app.get(URL_PREFIX + '/destinations/<int:id>')
+def get_country(id):
+    country = Countries.query.get_or_404(id)
+    return jsonify({'id': country.id, 'name': country.name, 'continent': country.continent})
+
 #Fucntion for adding countries to favorites
 @app.post(URL_PREFIX+'/favorites')
 def post_contries_to_favorite():
@@ -87,6 +92,7 @@ def post_contries_to_favorite():
         return {"error": "Invalid data"}, 400
     except ValueError as error:
         return {"error": str(error)}
+    
 
 if __name__ == '__main__':
     app.run(port=5555, debug=True)
